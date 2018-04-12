@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('mvn_ver') {
       steps {
-        sh 'man -v'
+        sh 'mvn -v'
       }
     }
   }
